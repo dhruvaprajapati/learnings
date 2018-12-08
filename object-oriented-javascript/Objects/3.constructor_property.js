@@ -13,10 +13,10 @@ function createCircle(radius){
 }
 // Creating an Object
 const circle = createCircle(1);
-
+// Constructor method
 function Circle(radius) {
   console.log('This', this);
-  this.radis = radius;
+  this.radius = radius;
   this.draw = function() {
     console.log(`drawing circle with radius ${radius}`);
   }
@@ -39,6 +39,6 @@ let x = {}; // when we use this object literal syntax to create object,
 // new String() - for creating string - but we use '', "", `` to create one because it is cleaner
 // new Boolean() - true, false
 // new Number() - 1, 2, 3, 4,
-
+// new Error() - to throw new Error()
 
 // NOTE: Try to do this example in browser for proper understanding.
